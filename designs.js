@@ -8,11 +8,14 @@ var canvas = document.getElementById(pixelCanvas);
 
 // When size is submitted by the user, call makeGrid()
 var submit_button = document.querySelector("submit");
-submit_button.addEventListener('click', makeGrid())
+submit_button.addEventListener('click', makeGrid);
 
 
 function makeGrid() {
-
-// Your code goes here!
-
+    for (let i = 0; i < canvas_height; i++) {
+        canvas.insertRow()
+    }
+        for (let x = 0; x < canvas_width; x++) {
+            canvas.insertCell()
+        }
 }
