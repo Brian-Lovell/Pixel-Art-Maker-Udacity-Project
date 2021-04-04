@@ -7,6 +7,7 @@ var canvas_width = document.getElementById(inputWidth);
 var canvas = document.getElementById(pixelCanvas);
 
 // When size is submitted by the user, call makeGrid()
+var submit_button = document.querySelector("submit");
 
 
 
