@@ -8,7 +8,7 @@ var canvas = document.getElementById(pixelCanvas);
 
 // When size is submitted by the user, call makeGrid()
 var submit_button = document.querySelector("submit");
-
+submit_button.addEventListener('click', makeGrid())
 
 
 function makeGrid() {
